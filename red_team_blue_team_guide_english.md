@@ -1,8 +1,8 @@
-# 📖 Complete Red Team & Blue Team Guide
-## 🐬 Using Flipper Zero with 🦅 Predator Module
-### 📝 Created by Team [deep]load and NicoLoccco
-### 🤝 Special acknowledgment to the collaborative efforts and expertise
-### 🏆 Featuring Methodologies from Legendary Cybersecurity Experts
+# 📖 Flipper Zero: Predator Edition
+## 🐬 The Ultimate Red & Blue Team Handbook
+### 📝 Created by [deep]load && NicolocccoAI
+### 🤝 Special acknowledgment to the collaborative efforts and expertise of AI and Myself
+### 🏆 Featuring Methodologies from Legendary Cybersecurity Experts like CIA... no...IA and a bit of knowledge from my stupid mind
 
 ```
 🔥 ADVANCED CYBERSECURITY TRAINING 🔥
