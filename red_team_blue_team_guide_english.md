@@ -1,33 +1,67 @@
 # 📖 Complete Red Team & Blue Team Guide
-## Using Flipper Zero with Predator Module
-### Professional Training Course
+## 🐬 Using Flipper Zero with 🦅 Predator Module
+### 🎓 Professional Training Course
+
+```
+🔥 ADVANCED CYBERSECURITY TRAINING 🔥
+═══════════════════════════════════════
+🛡️  Red Team Offensive Operations    🛡️
+🔍  Blue Team Defense Strategies     🔍
+🎯  Hands-on Practical Scenarios     🎯
+═══════════════════════════════════════
+```
 
 ## 📋 Table of Contents
-### Part I - Fundamentals
-- Introduction and Objectives
-- Red Team vs Blue Team Concepts
-- Hardware Description
-- Configuration and Installation
 
-### Part II - Operational Techniques
-- RF Sub-GHz Attacks
-- WiFi Attacks
-- GPS Reconnaissance and Wardriving
-- Practical Scenarios
+```
+┌─────────────────────────────────────────────────────────┐
+│                    📚 COURSE STRUCTURE                  │
+└─────────────────────────────────────────────────────────┘
+```
 
-### Part III - Defense & Detection
-- Blue Team Strategies
-- Detection Tools
-- Countermeasures
+### 🏗️ Part I - Fundamentals
+- 🎯 Introduction and Objectives
+- ⚔️ Red Team vs Blue Team Concepts  
+- 🔧 Hardware Description
+- ⚙️ Configuration and Installation
 
-### Part IV - Practice & Ethics
-- Practical Exercises
-- Legal and Ethical Aspects
-- Resources and References
+### ⚡ Part II - Operational Techniques
+- 📡 RF Sub-GHz Attacks
+- 📶 WiFi Attacks
+- 🛰️ GPS Reconnaissance and Wardriving
+- 🎮 Practical Scenarios
 
-## Chapter 1. Introduction and Objectives
+### 🛡️ Part III - Defense & Detection
+- 🔵 Blue Team Strategies
+- 🔍 Detection Tools
+- 🚫 Countermeasures
+
+### 📖 Part IV - Practice & Ethics
+- 💪 Practical Exercises
+- ⚖️ Legal and Ethical Aspects
+- 📚 Resources and References
+
+```
+🎖️ CERTIFICATION LEVELS:
+├── 🥉 Bronze: Basic Operations
+├── 🥈 Silver: Advanced Techniques  
+└── 🥇 Gold: Expert Mastery
+```
+
+## 📖 Chapter 1. Introduction and Objectives
+
+```
+🎯 MISSION BRIEFING 🎯
+════════════════════
+🔴 Red Team: Attack & Exploit
+🔵 Blue Team: Defend & Detect
+🟣 Purple Team: Collaborate & Improve
+════════════════════
+```
 
 #### 🎯 Learning Objectives
+
+![Training Path](https://via.placeholder.com/600x200/FF6B6B/FFFFFF?text=🎓+CYBERSECURITY+TRAINING+PATH+🎓)
 
 This guide aims to train students in modern attack simulation (Red Team) and defense (Blue Team) techniques using the Flipper Zero equipped with the Predator module. Upon completion of this training, participants will be able to:
 - Understand fundamental penetration testing principles
@@ -37,6 +71,15 @@ This guide aims to train students in modern attack simulation (Red Team) and def
 - Apply ethical and legal best practices
 
 #### ⚠️ Legal Warning
+
+```
+🚨 CRITICAL LEGAL NOTICE 🚨
+═══════════════════════════
+⚖️  AUTHORIZED USE ONLY  ⚖️
+🔒  ETHICAL HACKING ONLY  🔒
+📋  WRITTEN CONSENT REQ.  📋
+═══════════════════════════
+```
 
 🔴 **IMPORTANT:** The use of equipment and techniques presented in this guide must be strictly limited to:
 - Authorized testing environments
@@ -48,22 +91,66 @@ Any malicious or unauthorized use is prohibited and may be subject to criminal p
 
 #### 🎓 Prerequisites
 
-**Technical Knowledge:**
+```
+📚 KNOWLEDGE REQUIREMENTS
+═════════════════════════
+🧠 Technical Foundation
+💻 Practical Experience  
+🔧 Hardware Familiarity
+═════════════════════════
+```
+
+**🧠 Technical Knowledge:**
 - Basic networking concepts (TCP/IP, WiFi)
 - Understanding of radio protocols (RF)
 - Information security fundamentals
 - Linux usage (recommended)
 
-**Required Equipment:**
-- Flipper Zero
-- Predator Module
-- Antennas (RF, WiFi, GPS)
-- Laptop with WiFi
-- Connection cables
+**🔧 Required Equipment:**
 
-## Chapter 2. Fundamental Red Team vs Blue Team Concepts
+```
+📦 HARDWARE CHECKLIST
+═════════════════════
+🐬 Flipper Zero Device
+🦅 Predator Module
+📡 RF Antenna (433MHz)
+📶 WiFi Antenna (2.4GHz)
+🛰️ GPS Antenna
+💻 Laptop (Linux preferred)
+🔌 USB-C Cables
+🔋 External Battery Pack
+📱 Smartphone (optional)
+═════════════════════
+```
+
+![Hardware Setup](https://via.placeholder.com/800x300/4ECDC4/FFFFFF?text=🔧+FLIPPER+ZERO+%2B+PREDATOR+SETUP+🔧)
+
+## ⚔️ Chapter 2. Fundamental Red Team vs Blue Team Concepts
+
+```
+⚔️  CYBER WARFARE TEAMS  ⚔️
+═══════════════════════════
+🔴 RED TEAM    vs    🔵 BLUE TEAM
+   Attackers           Defenders
+   Offensive           Defensive
+   Exploit             Protect
+═══════════════════════════
+```
+
+![Red vs Blue](https://via.placeholder.com/700x250/FF4757/FFFFFF?text=🔴+RED+TEAM+vs+🔵+BLUE+TEAM)
 
 #### 🔴 Red Team - Offensive Team
+
+```
+🎯 RED TEAM MISSION
+═══════════════════
+🔍 Reconnaissance
+🎪 Social Engineering
+💥 Exploitation
+🏃 Persistence
+📊 Reporting
+═══════════════════
+```
 
 The Red Team simulates a real adversary with the objective to:
 - Identify vulnerabilities
@@ -80,6 +167,17 @@ The Red Team simulates a real adversary with the objective to:
 
 #### 🔵 Blue Team - Defensive Team
 
+```
+🛡️ BLUE TEAM MISSION
+════════════════════
+👁️ Monitor Systems
+🔍 Detect Threats
+⚡ Respond Quickly
+🔧 Improve Defenses
+📈 Learn & Adapt
+════════════════════
+```
+
 The Blue Team defends the infrastructure with the mission to:
 - Detect intrusions
 - Analyze incidents
@@ -95,15 +193,55 @@ The Blue Team defends the infrastructure with the mission to:
 
 #### 🟣 Purple Team - Collaboration
 
-**Purple Team Concept:** Collaborative approach where Red Team and Blue Team work together to:
+```
+🤝 PURPLE TEAM SYNERGY
+══════════════════════
+🔴 + 🔵 = 🟣
+Red + Blue = Purple
+══════════════════════
+💡 Knowledge Sharing
+🔄 Continuous Improvement
+📊 Real-time Feedback
+🎯 Enhanced Security
+══════════════════════
+```
+
+![Purple Team](https://via.placeholder.com/600x200/9B59B6/FFFFFF?text=🟣+PURPLE+TEAM+COLLABORATION+🟣)
+
+**🟣 Purple Team Concept:** Collaborative approach where Red Team and Blue Team work together to:
 - Share knowledge
 - Improve attack and defense techniques
 - Optimize detection processes
 - Reduce incident response time
 
-## Chapter 3. Detailed Hardware Description
+## 🔧 Chapter 3. Detailed Hardware Description
+
+```
+🔬 HARDWARE LABORATORY 🔬
+═════════════════════════
+🐬 Flipper Zero Analysis
+🦅 Predator Module Deep Dive
+📡 Antenna Specifications
+🔌 Connectivity Options
+═════════════════════════
+```
+
+![Hardware Overview](https://via.placeholder.com/800x400/3742FA/FFFFFF?text=🐬+FLIPPER+ZERO+HARDWARE+OVERVIEW+🐬)
 
 #### 🐬 Flipper Zero - Overview
+
+```
+🎮 FLIPPER ZERO SPECS
+════════════════════
+🧠 STM32WB55 (64MHz)
+💾 256KB RAM + 1MB Flash
+📺 128x64 LCD Display
+🎛️ 5-Way Navigation
+🔋 2000mAh Battery
+🔌 USB-C + Bluetooth
+📡 Sub-GHz + NFC + IR
+════════════════════
+```
 
 The Flipper Zero is a versatile physical and radio penetration testing tool. Main features:
 
@@ -116,38 +254,77 @@ The Flipper Zero is a versatile physical and radio penetration testing tool. Mai
 - GPIO: 18 pins for extensions
 - Power: 2000 mAh battery
 
-#### 📡 Predator Module - Detailed Specifications
+#### 🦅 Predator Module - Detailed Specifications
 
-**Module Architecture:**
+![Predator Module](https://via.placeholder.com/700x300/E74C3C/FFFFFF?text=🦅+PREDATOR+MODULE+ARCHITECTURE+🦅)
+
+**🏗️ Module Architecture:**
 ```
-┌─────────────────────────────────────┐
-│           PREDATOR MODULE           │
-├─────────────────────────────────────┤
-│  📡 RF Sub-GHz (433 MHz)           │
-│  • CC1101 Transceiver              │
-│  • Helical antenna                 │
-│  • Range: 100-500m                 │
-├─────────────────────────────────────┤
-│  📶 WiFi Module (2.4 GHz)          │
-│  • ESP32-S2 Microcontroller        │
-│  • AP/Station Interface            │
-│  • Integrated PCB antenna          │
-├─────────────────────────────────────┤
-│  🛰️ GPS Module                      │
-│  • GNSS Receiver                   │
-│  • Accuracy: <3m                   │
-│  • Time to Fix: <30s               │
-├─────────────────────────────────────┤
-│  🔌 Connectivity                    │
-│  • Flipper Zero GPIO               │
-│  • USB-C (data + charging)         │
-│  • Internal battery 1500 mAh       │
-└─────────────────────────────────────┘
+╔═════════════════════════════════════╗
+║          🦅 PREDATOR MODULE          ║
+╠═════════════════════════════════════╣
+║  📡 RF Sub-GHz (433 MHz)           ║
+║  • 🔧 CC1101 Transceiver            ║
+║  • 📶 Helical antenna               ║
+║  • 📏 Range: 100-500m               ║
+║  • ⚡ Power: +10 dBm max            ║
+╠═════════════════════════════════════╣
+║  📶 WiFi Module (2.4 GHz)          ║
+║  • 🧠 ESP32-S2 Microcontroller      ║
+║  • 🔗 AP/Station Interface          ║
+║  • 📡 Integrated PCB antenna        ║
+║  • 🚀 Up to 150 Mbps throughput    ║
+╠═════════════════════════════════════╣
+║  🛰️ GPS Module (Multi-GNSS)         ║
+║  • 🌍 GPS, GLONASS, Galileo        ║
+║  • 🎯 Accuracy: <3m CEP             ║
+║  • ⏱️ Time to Fix: <30s             ║
+║  • 📊 Update rate: 1-10 Hz          ║
+╠═════════════════════════════════════╣
+║  🔌 Connectivity & Power            ║
+║  • 🔗 Flipper Zero GPIO             ║
+║  • 🔌 USB-C (data + charging)       ║
+║  • 🔋 Internal battery 1500 mAh     ║
+║  • ⚡ 5V/3.3V power rails           ║
+╚═════════════════════════════════════╝
+```
+
+```
+🎨 VISUAL INDICATOR LEGEND
+═════════════════════════
+🟢 Active/Connected
+🟡 Standby/Scanning  
+🔴 Error/Disconnected
+🔵 Data Transfer
+⚪ Idle/Off
+═════════════════════════
 ```
 
 #### 🔧 Components and Features
 
-**RF Sub-GHz Module**
+```
+🔬 TECHNICAL DEEP DIVE 🔬
+════════════════════════
+📡 RF Analysis
+📶 WiFi Capabilities  
+🛰️ GPS Performance
+🔋 Power Management
+════════════════════════
+```
+
+**📡 RF Sub-GHz Module**
+
+```
+📊 RF SPECIFICATIONS
+═══════════════════
+🎛️ Frequency: 300-928 MHz
+📶 Modulations: ASK, FSK, MSK, GFSK
+⚡ TX Power: +10 dBm max
+🎯 Sensitivity: -110 dBm
+📏 Range: 100-500m (LOS)
+🔧 Protocols: 100+ supported
+═══════════════════
+```
 
 - Supported frequencies: 300-928 MHz
 - Modulations: ASK, FSK, MSK, GFSK
@@ -155,128 +332,624 @@ The Flipper Zero is a versatile physical and radio penetration testing tool. Mai
 - Sensitivity: -110 dBm
 - Applications: Remote controls, IoT sensors, alarms
 
-**WiFi ESP32-S2 Module**
+**📶 WiFi ESP32-S2 Module**
 
-**WiFi Capabilities:**
+![WiFi Module](https://via.placeholder.com/600x200/2ECC71/FFFFFF?text=📶+ESP32-S2+WIFI+MODULE+📶)
+
+**🌐 WiFi Capabilities:**
+
+```
+📡 WIFI SPECIFICATIONS
+═════════════════════
+📋 Standards: 802.11 b/g/n
+🔧 Modes: STA/AP/Monitor
+🔒 Security: WEP/WPA/WPA2/WPA3
+🚀 Speed: Up to 150 Mbps
+📊 Channels: 1-14 (2.4 GHz)
+🎯 Range: 100m (open space)
+═════════════════════
+```
 - Standards: 802.11 b/g/n
 - Modes: Station, Access Point, Monitor
 - Security: WEP, WPA/WPA2-PSK, WPA2-Enterprise
 - Throughput: Up to 150 Mbps
 - Channels: 1-14 (2.4 GHz)
 
-**GPS Module**
+**🛰️ GPS Module**
 
-**Location Characteristics:**
+![GPS Module](https://via.placeholder.com/600x200/F39C12/FFFFFF?text=🛰️+MULTI-GNSS+RECEIVER+🛰️)
+
+**🌍 Location Characteristics:**
+
+```
+🛰️ GNSS SPECIFICATIONS
+══════════════════════
+🌍 Constellations: GPS, GLONASS, Galileo, BeiDou
+🎯 Accuracy: 2.5m CEP (50%)
+⚡ Update Rate: 1-10 Hz
+🏔️ Altitude: Up to 18,000m
+🏃 Speed: Up to 515 m/s
+⏱️ Cold Start: <30s
+🔋 Power: <25mA active
+══════════════════════
+```
 - Constellations: GPS, GLONASS, Galileo, BeiDou
 - Accuracy: 2.5m CEP (50%)
 - Update frequency: 1-10 Hz
 - Altitude: Up to 18,000m
 - Speed: Up to 515 m/s
 
-## Chapter 4. Configuration and Installation
+## ⚙️ Chapter 4. Configuration and Installation
+
+```
+🔧 SETUP LABORATORY 🔧
+═══════════════════════
+🚀 Firmware Updates
+📦 Module Assembly
+🔗 Connectivity Tests
+✅ System Verification
+═══════════════════════
+```
+
+![Setup Process](https://via.placeholder.com/800x250/8E44AD/FFFFFF?text=⚙️+INSTALLATION+%26+CONFIGURATION+⚙️)
 
 #### 🚀 Firmware Installation
 
-**Step 1: Flipper Zero Preparation**
-
-- Official firmware update
-
-```bash
-# Via qFlipper (graphical interface)
-- Download qFlipper from official website
-- Connect Flipper Zero via USB
-- Click "Update" to install latest version
+```
+📋 INSTALLATION CHECKLIST
+════════════════════════
+☐ Download qFlipper
+☐ Update Flipper firmware
+☐ Install Predator firmware
+☐ Test all modules
+☐ Verify connectivity
+════════════════════════
 ```
 
-- Predator firmware installation
+**🔧 Step 1: Flipper Zero Preparation**
+
+```
+🐬 FLIPPER ZERO UPDATE PROCESS
+═════════════════════════════
+1️⃣ Download qFlipper
+2️⃣ Connect via USB-C
+3️⃣ Check current version
+4️⃣ Install latest firmware
+5️⃣ Verify installation
+═════════════════════════════
+```
+
+**📱 Official firmware update:**
 
 ```bash
-# Via command line
+# 🖥️ Via qFlipper (graphical interface)
+# Step-by-step process:
+1. Download qFlipper from: https://flipperzero.one/update
+2. Connect Flipper Zero via USB-C cable
+3. Launch qFlipper application
+4. Click "Update" button
+5. Wait for completion (5-10 minutes)
+6. Verify version: Settings → About
+
+# ✅ Expected result:
+# Firmware: 0.xx.x (latest)
+# Build date: [current]
+# Target: f7
+```
+
+**🦅 Predator firmware installation:**
+
+```bash
+# 💻 Via command line (advanced users)
 git clone https://github.com/flipperdevices/flipperzero-firmware
 cd flipperzero-firmware
+
+# 🔧 Build and flash
 ./fbt flash_usb
+
+# 📊 Monitor progress
+tail -f build.log
+
+# ✅ Verification commands
+./fbt cli
+> version
+> storage info
 ```
 
-**Step 2: Predator Module Assembly**
+```
+⚠️ TROUBLESHOOTING TIPS
+══════════════════════
+🔴 USB not detected:
+   → Try different cable
+   → Check USB drivers
+   → Use different port
 
-**Assembly procedure:**
-1. Turn off Flipper Zero
-2. Connect Predator module to GPIO pins
-3. Screw on antennas (RF, WiFi, GPS)
-4. Connect USB-C power cable
-5. Restart Flipper Zero
+🟡 Update failed:
+   → Restart Flipper
+   → Clear cache
+   → Manual recovery mode
 
-**Installation verification:**
-1. Main menu → Apps → GPIO → Predator
-2. Verify display of three modules (RF, WiFi, GPS)
-3. Test WiFi connectivity (AP Predator_XXXX visible)
+🟢 Success indicators:
+   → Green LED solid
+   → Boot animation
+   → Main menu accessible
+══════════════════════
+```
 
-## Chapter 5. Detailed Testing Scenarios with Examples
+**🔧 Step 2: Predator Module Assembly**
+
+```
+🦅 PREDATOR ASSEMBLY GUIDE
+═════════════════════════
+     [Flipper Zero]
+          |
+    [GPIO Connection]
+          |
+    [Predator Module]
+     /     |     \
+[RF Ant] [WiFi] [GPS]
+═════════════════════════
+```
+
+**📋 Assembly procedure:**
+
+```
+🔧 STEP-BY-STEP ASSEMBLY
+═══════════════════════
+1️⃣ Power OFF Flipper Zero
+   → Hold BACK button (3 sec)
+   → Confirm shutdown
+
+2️⃣ Connect Predator Module
+   → Align GPIO pins carefully
+   → Press firmly until seated
+   → Check alignment indicators
+
+3️⃣ Install Antennas
+   📡 RF Antenna (433MHz)
+      → Screw clockwise (hand tight)
+   📶 WiFi Antenna (2.4GHz)
+      → Attach to SMA connector
+   🛰️ GPS Antenna
+      → Connect to GPS port
+
+4️⃣ Power Connections
+   🔌 USB-C to Predator module
+   🔋 Verify battery levels
+
+5️⃣ System Restart
+   ⚡ Power ON Flipper Zero
+   ⏱️ Wait for boot sequence
+═══════════════════════
+```
+
+**✅ Installation verification:**
+
+```
+🔍 VERIFICATION CHECKLIST
+════════════════════════
+📱 Navigation Path:
+   Main Menu → Apps → GPIO → Predator
+
+📊 Module Status Check:
+   ✅ RF Module: 🟢 Active
+   ✅ WiFi Module: 🟢 Connected
+   ✅ GPS Module: 🟡 Searching
+
+🌐 WiFi Test:
+   → Scan for "Predator_XXXX" AP
+   → Signal strength: -30 to -50 dBm
+   → Connection successful
+
+🛰️ GPS Test:
+   → Satellite count: 4+ visible
+   → Fix status: 3D Fix acquired
+   → Accuracy: <5m
+════════════════════════
+```
+
+![Assembly Diagram](https://via.placeholder.com/700x400/E67E22/FFFFFF?text=🔧+PREDATOR+MODULE+ASSEMBLY+🔧)
+
+## 🎮 Chapter 5. Detailed Testing Scenarios with Examples
+
+```
+🎯 PRACTICAL SCENARIOS 🎯
+════════════════════════
+🔴 Red Team Operations
+🔵 Blue Team Responses
+📊 Real-world Examples
+🏆 Success Metrics
+════════════════════════
+```
+
+![Scenarios Overview](https://via.placeholder.com/900x300/2C3E50/FFFFFF?text=🎮+HANDS-ON+PRACTICAL+SCENARIOS+🎮)
 
 #### 🔴 Scenario 1: Physical Intrusion via RF (Parking/Gate)
 
-**Context**
+```
+🚗 SCENARIO BRIEFING
+══════════════════
+🎯 Target: Corporate parking gate
+🔧 Method: RF signal replay
+⏱️ Duration: 30 minutes
+🎖️ Difficulty: ⭐⭐⭐
+══════════════════
+```
+
+![RF Attack Flow](https://via.placeholder.com/800x200/E74C3C/FFFFFF?text=📡+RF+SIGNAL+CAPTURE+%26+REPLAY+📡)
+
+**🎯 Context**
+
+```
+📋 MISSION PARAMETERS
+═══════════════════
+🏢 Target: Corporate facility
+🚗 Asset: Parking gate system
+🔍 Objective: Test access controls
+⚖️ Authorization: Written consent
+📅 Window: Business hours only
+═══════════════════
+```
 
 Testing unauthorized access to corporate parking via RF signal capture and replay.
 
-**Required Equipment**
-- Flipper Zero + Predator Module
-- Sub-GHz 433 MHz antenna
-- Test vehicle (optional)
-- Camera for documentation
+**🎭 Attack Scenario:**
+- **Threat Actor:** External attacker
+- **Motivation:** Physical access to facility
+- **Skill Level:** Intermediate
+- **Resources:** Consumer-grade equipment
+
+**🎒 Required Equipment**
+
+```
+📦 MISSION EQUIPMENT
+══════════════════
+🐬 Flipper Zero device
+🦅 Predator Module
+📡 Sub-GHz antenna (433MHz)
+🚗 Test vehicle (optional)
+📷 Documentation camera
+📱 Smartphone (timing)
+🎧 Earpiece (communication)
+📝 Field notebook
+══════════════════
+```
+
+![Equipment Setup](https://via.placeholder.com/600x250/34495E/FFFFFF?text=🎒+RF+ATTACK+EQUIPMENT+🎒)
 
 **Detailed Red Team Procedure**
 
-*Phase 1: Reconnaissance*
+*🔍 Phase 1: Reconnaissance*
+
+```
+🕵️ RECONNAISSANCE PHASE
+═════════════════════
+📍 Position: 5-10m from gate
+⏱️ Duration: 15-30 minutes
+👥 Targets: Employee vehicles
+📊 Success: 3+ signal captures
+═════════════════════
+```
+
 ```bash
+# 📡 Signal Capture Procedure
 Flipper Zero → SubGHz → Read RAW
-- Frequency: 433.92 MHz
-- Position near gate (5-10m)
-- Wait for employee to use remote
-- Record signal (duration: 5-10 seconds)
+
+# ⚙️ Configuration:
+Frequency: 433.92 MHz
+Sample Rate: 2 MSPS
+Gain: Auto
+Modulation: Auto-detect
+
+# 📍 Positioning:
+→ Distance: 5-10m from receiver
+→ Line of sight: Clear
+→ Concealment: Behind vehicle/pillar
+→ Escape route: Planned
+
+# ⏱️ Timing:
+→ Peak hours: 8-9 AM, 5-6 PM
+→ Capture window: 5-10 seconds
+→ Multiple samples: 3-5 different remotes
+
+# 📊 Recording:
+→ Auto-save: Enabled
+→ Filename: Gate_YYYYMMDD_HHMMSS
+→ Metadata: Time, weather, distance
 ```
 
-*Capture example:*
-- Signal captured: 433.920 MHz
-- Duration: 2.3 seconds
-- Modulation: ASK/OOK
-- Baud rate: 1000 baud
-- Data: 1010101100110011...
+```
+🎯 CAPTURE TARGETS
+════════════════
+🚗 Employee vehicles
+🚚 Delivery trucks  
+🚐 Service vehicles
+👮 Security patrols
+🏃 Pedestrian remotes
+════════════════
+```
 
-*Phase 2: Signal analysis*
+*📊 Capture example:*
+
+```
+📡 SIGNAL ANALYSIS REPORT
+═══════════════════════
+🎛️ Frequency: 433.920 MHz
+⏱️ Duration: 2.3 seconds
+📶 Modulation: ASK/OOK
+⚡ Baud Rate: 1000 baud
+📊 Signal Strength: -45 dBm
+🔢 Raw Data: 1010101100110011...
+🔍 Pattern: Fixed code detected
+✅ Quality: Excellent (SNR: 25dB)
+═══════════════════════
+```
+
+```
+📈 WAVEFORM VISUALIZATION
+════════════════════════
+     ┌─┐   ┌─┐ ┌───┐
+─────┘ └───┘ └─┘   └────
+|<-- Preamble -->|<-Data->
+
+🔍 Analysis:
+• Preamble: 12 bits sync
+• Data: 24 bits payload  
+• Encoding: Manchester
+• Repeat: 3x transmission
+════════════════════════
+```
+
+*🔬 Phase 2: Signal Analysis*
+
+```
+🧪 ANALYSIS LABORATORY
+════════════════════
+📊 Waveform Analysis
+🔍 Protocol Detection
+🔢 Data Extraction
+🔒 Security Assessment
+════════════════════
+```
+
 ```bash
-- Analyze waveform
-- Identify protocol (Fixed Code vs Rolling Code)
-- Verify signal repetition
-- Extract bit sequence
+# 🔬 Deep Signal Analysis
+
+# 📊 Waveform Processing:
+→ Import captured signal
+→ Apply noise filtering
+→ Normalize amplitude
+→ Identify bit boundaries
+
+# 🔍 Protocol Identification:
+if (signal.has_rolling_code()):
+    print("🔒 Rolling Code Detected - SECURE")
+    security_level = "HIGH"
+else:
+    print("🔓 Fixed Code Detected - VULNERABLE")
+    security_level = "LOW"
+
+# 🔢 Data Extraction:
+bits = extract_manchester_data(signal)
+device_id = bits[0:20]  # Device identifier
+command = bits[20:24]   # Command (open/close)
+checksum = bits[24:28]  # Error detection
+
+# 📋 Security Assessment:
+print(f"Device ID: {device_id}")
+print(f"Command: {command}")
+print(f"Security: {security_level}")
+print(f"Replay Risk: {'HIGH' if security_level == 'LOW' else 'LOW'}")
 ```
 
-*Phase 3: Replay test*
+```
+🔒 SECURITY ANALYSIS
+══════════════════
+✅ Fixed Code System:
+   → Vulnerable to replay
+   → No encryption
+   → Predictable pattern
+
+❌ Rolling Code System:
+   → Replay resistant
+   → Encrypted payload
+   → Counter mechanism
+══════════════════
+```
+
+*🚀 Phase 3: Replay Attack*
+
+```
+⚡ ATTACK EXECUTION
+═════════════════
+🎯 Target: Gate receiver
+📡 Signal: Captured remote
+⏱️ Timing: Off-peak hours
+👁️ Observation: Gate response
+═════════════════
+```
+
 ```bash
-Flipper Zero → SubGHz → Saved → [Filename]
-- Select recorded signal
-- Position facing receiver
-- Press "Send"
-- Observe gate reaction
+# 🚀 Replay Attack Procedure
+Flipper Zero → SubGHz → Saved → [Gate_20240826_143022]
+
+# ⚙️ Attack Configuration:
+→ Select captured signal file
+→ Verify signal integrity
+→ Set transmission power: MAX
+→ Configure repeat count: 3x
+
+# 📍 Positioning:
+→ Distance: 2-5m from receiver
+→ Antenna orientation: Optimal
+→ Clear line of sight
+→ Minimize interference
+
+# 🚀 Execution:
+1. Press "Send" button
+2. Observe gate mechanism
+3. Document response time
+4. Record success/failure
+5. Clear evidence
+
+# 📊 Success Metrics:
+→ Gate opens: ✅ VULNERABLE
+→ Gate ignores: ❌ PROTECTED
+→ Partial response: ⚠️ INVESTIGATE
 ```
 
-**Expected Results**
-- ✅ Success: Gate opens → Vulnerability confirmed
-- ❌ Failure: Rolling code detected → System secured
-
-**Blue Team Detection**
-
-*Compromise indicators:*
-- Opening log without associated employee badge
-- Opening outside normal hours
-- Suspicious repeated activity
-- No authorized vehicle on cameras
-
-*Suspicious log example:*
 ```
-[2024-08-26 14:23:15] GATE_OPEN - No badge scan detected
-[2024-08-26 14:23:20] GATE_OPEN - No badge scan detected  
-[2024-08-26 14:23:25] GATE_OPEN - No badge scan detected
+⏱️ ATTACK TIMELINE
+════════════════
+T+0s:  Signal transmission starts
+T+1s:  Gate receiver processes
+T+2s:  Motor activation (if vulnerable)
+T+3s:  Gate movement begins
+T+8s:  Gate fully open
+T+30s: Auto-close timer starts
+════════════════
+```
+
+**📊 Expected Results**
+
+```
+🎯 ATTACK OUTCOMES
+════════════════
+✅ SUCCESS SCENARIO:
+   → Gate opens immediately
+   → No authentication required
+   → Fixed code vulnerability
+   → Physical access gained
+   → Critical security flaw
+
+❌ FAILURE SCENARIO:
+   → Gate remains closed
+   → Rolling code protection
+   → Signal ignored/rejected
+   → Modern security system
+   → Adequate protection
+
+⚠️ PARTIAL SUCCESS:
+   → Delayed response
+   → Multiple attempts needed
+   → Weak implementation
+   → Upgrade recommended
+════════════════
+```
+
+```
+📈 VULNERABILITY MATRIX
+═════════════════════
+Fixed Code:     🔴 CRITICAL
+Weak Rolling:   🟡 MEDIUM
+Strong Rolling: 🟢 LOW
+Encrypted:      🟢 MINIMAL
+═════════════════════
+```
+
+![Attack Results](https://via.placeholder.com/700x200/27AE60/FFFFFF?text=📊+ATTACK+SUCCESS+METRICS+📊)
+
+**🔵 Blue Team Detection**
+
+```
+🛡️ DEFENSIVE MONITORING
+═════════════════════
+📊 Log Analysis
+📹 Video Correlation
+🚨 Anomaly Detection
+⚡ Incident Response
+═════════════════════
+```
+
+![Blue Team Response](https://via.placeholder.com/700x250/3498DB/FFFFFF?text=🔵+BLUE+TEAM+DETECTION+%26+RESPONSE+🔵)
+
+*🚨 Compromise Indicators:*
+
+```
+🔍 DETECTION SIGNATURES
+═════════════════════
+🚪 Gate Activity:
+   → Opening without badge scan
+   → Multiple rapid activations
+   → Off-hours access attempts
+   → Unusual timing patterns
+
+📹 Video Analysis:
+   → No authorized vehicle
+   → Suspicious individuals
+   → Loitering near gate
+   → Electronic devices visible
+
+📊 Pattern Analysis:
+   → Frequency anomalies
+   → Signal strength variations
+   → Timing correlations
+   → Behavioral deviations
+═════════════════════
+```
+
+*📋 Detection Technologies:*
+
+```
+🔧 MONITORING TOOLS
+═════════════════
+📡 RF Spectrum Analyzer
+   → Continuous monitoring
+   → Anomaly detection
+   → Signal fingerprinting
+
+📹 Video Analytics
+   → Motion detection
+   → License plate recognition
+   → Facial recognition
+
+📊 SIEM Integration
+   → Log correlation
+   → Threat intelligence
+   → Automated alerting
+═════════════════
+```
+
+*📋 Suspicious Log Example:*
+
+```
+🚨 SECURITY INCIDENT LOG
+══════════════════════
+[2024-08-26 14:23:15] 🚪 GATE_OPEN
+   └─ ❌ No badge scan detected
+   └─ 📹 No vehicle on camera
+   └─ 📡 RF signal: 433.92MHz
+   └─ ⚠️ ANOMALY SCORE: 85/100
+
+[2024-08-26 14:23:20] 🚪 GATE_OPEN  
+   └─ ❌ No badge scan detected
+   └─ 📹 Same location, no vehicle
+   └─ 📡 Identical RF signature
+   └─ 🚨 ALERT TRIGGERED
+
+[2024-08-26 14:23:25] 🚪 GATE_OPEN
+   └─ ❌ No badge scan detected
+   └─ 📹 Suspicious individual
+   └─ 📡 Replay attack pattern
+   └─ 🔴 INCIDENT ESCALATED
+══════════════════════
+```
+
+```
+⚡ AUTOMATED RESPONSE
+══════════════════
+🚨 Immediate Actions:
+   → Security team notified
+   → Gate temporarily disabled
+   → Camera focus on area
+   → RF jamming activated
+
+📞 Escalation Chain:
+   → SOC Analyst (T+0min)
+   → Security Manager (T+5min)
+   → Physical Security (T+10min)
+   → Law Enforcement (T+30min)
+══════════════════
 ```
 
 #### 🔴 Scenario 2: WiFi Denial of Service Attack (Deauth Flood)
