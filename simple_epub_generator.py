@@ -64,8 +64,14 @@ class SimpleEpubGenerator:
         html_text = re.sub(r'^### (.*?)$', r'<h3>\1</h3>', html_text, flags=re.MULTILINE)
         html_text = re.sub(r'^#### (.*?)$', r'<h4>\1</h4>', html_text, flags=re.MULTILINE)
         
-        # Convert code blocks
-        html_text = re.sub(r'```([^`]*?)```', r'<pre><code>\1</code></pre>', html_text, flags=re.DOTALL)
+        # Convert code blocks - preserve line breaks within code blocks
+        def convert_code_block(match):
+            code_content = match.group(1)
+            # Preserve line breaks in code blocks by converting them to <br/> tags
+            code_content = code_content.replace('\n', '<br/>\n')
+            return f'<pre><code>{code_content}</code></pre>'
+        
+        html_text = re.sub(r'```([^`]*?)```', convert_code_block, html_text, flags=re.DOTALL)
         html_text = re.sub(r'`([^`]+?)`', r'<code>\1</code>', html_text)
         
         # Convert bold and italic
@@ -79,10 +85,27 @@ class SimpleEpubGenerator:
         html_text = re.sub(r'^- (.*?)$', r'<li>\1</li>', html_text, flags=re.MULTILINE)
         html_text = re.sub(r'(<li>.*?</li>)', r'<ul>\1</ul>', html_text, flags=re.DOTALL)
         
-        # Convert line breaks
+        # Convert line breaks - preserve formatting for code blocks and special sections
+        # First handle code blocks specially to preserve their formatting
+        code_blocks = []
+        def preserve_code(match):
+            code_blocks.append(match.group(0))
+            return f"__CODE_BLOCK_{len(code_blocks)-1}__"
+        
+        html_text = re.sub(r'<pre><code>.*?</code></pre>', preserve_code, html_text, flags=re.DOTALL)
+        
+        # Convert paragraphs (double line breaks)
         html_text = html_text.replace('\n\n', '</p><p>')
-        html_text = html_text.replace('\n', '<br/>')
+        
+        # Convert single line breaks to <br/> but preserve structure
+        html_text = html_text.replace('\n', '<br/>\n')
+        
+        # Wrap in paragraphs
         html_text = f'<p>{html_text}</p>'
+        
+        # Restore code blocks
+        for i, code_block in enumerate(code_blocks):
+            html_text = html_text.replace(f"__CODE_BLOCK_{i}__", code_block)
         
         # Clean up multiple tags
         html_text = re.sub(r'</p><p></p><p>', '</p><p>', html_text)
