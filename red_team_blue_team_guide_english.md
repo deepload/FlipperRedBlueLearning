@@ -1,6 +1,6 @@
 # 📖 Complete Red Team & Blue Team Guide
 ## 🐬 Using Flipper Zero with 🦅 Predator Module
-### 📝 Created by Team [deep]load and NicoLoccco
+### 📝 Created by Team [deep]load  wi NicolocccoAI
 ### 🤝 Special acknowledgment to the collaborative efforts and expertise
 ### 🏆 Featuring Methodologies from Legendary Cybersecurity Experts
 
