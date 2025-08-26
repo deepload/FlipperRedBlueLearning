@@ -1,7 +1,7 @@
 # 📖 Flipper Zero: Predator Edition
 ## 🐬 The Ultimate Red & Blue Team Handbook
 ### 📝 Created by [deep]load && NicolocccoAI
-### 🤝 Special acknowledgment to the collaborative efforts and expertise
+### 🤝 Special acknowledgment to the collaborative efforts and expertise of AI and Myself
 ### 🏆 Featuring Methodologies from Legendary Cybersecurity Experts
 
 ```
