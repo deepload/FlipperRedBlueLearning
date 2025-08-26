@@ -46,29 +46,29 @@ This guide is intended for educational and authorized security testing purposes 
 
 """
     
-    # Read original content
-    with open("red_team_blue_team_guide.md", 'r', encoding='utf-8') as f:
+    # Read the already enhanced content
+    with open("enhanced_guide.md", 'r', encoding='utf-8') as f:
         original_content = f.read()
     
-    # Combine metadata with content
+    # Combine metadata with existing enhanced content
     enhanced_content = metadata + original_content
     
-    # Write enhanced markdown
-    with open("enhanced_guide.md", 'w', encoding='utf-8') as f:
+    # Write enhanced markdown with metadata
+    with open("enhanced_guide_with_metadata.md", 'w', encoding='utf-8') as f:
         f.write(enhanced_content)
     
     print("📖 Enhanced markdown created with metadata")
     
     # Create output directory
-    os.makedirs("output", exist_ok=True)
+    os.makedirs("output2", exist_ok=True)
     
     # Generate PDF using pandoc
     print("📄 Generating PDF with pandoc...")
     try:
         pdf_cmd = [
             "pandoc",
-            "enhanced_guide.md",
-            "-o", "output/Red_Team_Blue_Team_Guide_Professional.pdf",
+            "enhanced_guide_with_metadata.md",
+            "-o", "output2/Red_Team_Blue_Team_Guide_Professional.pdf",
             "--pdf-engine=weasyprint",
             "--css=professional_style.css",
             "--standalone",
@@ -169,7 +169,7 @@ This guide is intended for educational and authorized security testing purposes 
         result = subprocess.run(pdf_cmd, capture_output=True, text=True)
         
         if result.returncode == 0:
-            pdf_path = "output/Red_Team_Blue_Team_Guide_Professional.pdf"
+            pdf_path = "output2/Red_Team_Blue_Team_Guide_Professional.pdf"
             if os.path.exists(pdf_path):
                 size = os.path.getsize(pdf_path) / (1024 * 1024)
                 print(f"✅ PDF generated: {pdf_path}")
@@ -191,8 +191,8 @@ This guide is intended for educational and authorized security testing purposes 
     try:
         epub_cmd = [
             "pandoc",
-            "enhanced_guide.md",
-            "-o", "output/Red_Team_Blue_Team_Guide_Professional.epub",
+            "enhanced_guide_with_metadata.md",
+            "-o", "output2/Red_Team_Blue_Team_Guide_Professional.epub",
             "--standalone",
             "--toc",
             "--epub-cover-image=cover.jpg",
@@ -220,7 +220,7 @@ This guide is intended for educational and authorized security testing purposes 
         result = subprocess.run(epub_cmd, capture_output=True, text=True)
         
         if result.returncode == 0:
-            epub_path = "output/Red_Team_Blue_Team_Guide_Professional.epub"
+            epub_path = "output2/Red_Team_Blue_Team_Guide_Professional.epub"
             if os.path.exists(epub_path):
                 size = os.path.getsize(epub_path) / (1024 * 1024)
                 print(f"✅ EPUB generated: {epub_path}")
@@ -260,11 +260,11 @@ def generate_with_weasyprint():
         # Generate PDF
         html_doc = f"<html><head><meta charset='utf-8'></head><body>{html}</body></html>"
         HTML(string=html_doc).write_pdf(
-            "output/Red_Team_Blue_Team_Guide_Professional.pdf",
+            "output2/Red_Team_Blue_Team_Guide_Professional.pdf",
             stylesheets=[CSS(string=css_content)]
         )
         
-        pdf_path = "output/Red_Team_Blue_Team_Guide_Professional.pdf"
+        pdf_path = "output2/Red_Team_Blue_Team_Guide_Professional.pdf"
         if os.path.exists(pdf_path):
             size = os.path.getsize(pdf_path) / (1024 * 1024)
             print(f"✅ PDF generated with WeasyPrint: {pdf_path}")
@@ -345,10 +345,10 @@ Next Steps for Amazon Publishing:
 6. Configure pricing and distribution
 """
     
-    with open("output/publishing_info.txt", 'w', encoding='utf-8') as f:
+    with open("output2/publishing_info.txt", 'w', encoding='utf-8') as f:
         f.write(info_content)
     
-    print("📋 Publishing information saved to: output/publishing_info.txt")
+    print("📋 Publishing information saved to: output2/publishing_info.txt")
 
 if __name__ == "__main__":
     create_professional_ebook()
