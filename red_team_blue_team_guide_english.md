@@ -1,5 +1,5 @@
-# 📖 Complete Flipper Zero Predator equiped, Red & Blue Team module Guide
-## 🐬 Using Flipper Zero with 🦅 Predator Module
+# 📖 Flipper Zero: Predator Edition
+## 🐬 The Ultimate Red & Blue Team Handbook
 ### 📝 Created by [deep]load && NicolocccoAI
 ### 🤝 Special acknowledgment to the collaborative efforts and expertise
 ### 🏆 Featuring Methodologies from Legendary Cybersecurity Experts
