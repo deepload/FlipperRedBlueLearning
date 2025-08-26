@@ -2,7 +2,7 @@
 ## 🐬 The Ultimate Red & Blue Team Handbook
 ### 📝 Created by [deep]load && NicolocccoAI
 ### 🤝 Special acknowledgment to the collaborative efforts and expertise of AI and Myself
-### 🏆 Featuring Methodologies from Legendary Cybersecurity Experts
+### 🏆 Featuring Methodologies from Legendary Cybersecurity Experts like CIA... no...IA and a bit of knowledge from my stupid mind
 
 ```
 🔥 ADVANCED CYBERSECURITY TRAINING 🔥
