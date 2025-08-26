@@ -1,6 +1,8 @@
 # 📖 Complete Red Team & Blue Team Guide
 ## 🐬 Using Flipper Zero with 🦅 Predator Module
-### 🎓 Professional Training Course
+### 📝 Created by Team [deep]load and NicoLoccco
+### 🤝 Special acknowledgment to the collaborative efforts and expertise
+### 🏆 Featuring Methodologies from Legendary Cybersecurity Experts
 
 ```
 🔥 ADVANCED CYBERSECURITY TRAINING 🔥
@@ -81,6 +83,8 @@ This guide aims to train students in modern attack simulation (Red Team) and def
 ═══════════════════════════
 ```
 
+{{ ... }}
+═══════════════════════════
 🔴 **IMPORTANT:** The use of equipment and techniques presented in this guide must be strictly limited to:
 - Authorized testing environments
 - Legal penetration testing missions

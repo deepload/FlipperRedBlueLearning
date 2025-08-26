@@ -1,6 +1,7 @@
 # 🎯 The Art of Modern Penetration Testing
 ## 🐬 Advanced Hardware-Based Security Assessment with Flipper Zero
-### 🏆 By the Legends of Cybersecurity
+### 📝 Created by Team [deep]load and Nicoloco
+### 🏆 Featuring Methodologies from Legendary Cybersecurity Experts
 
 ```
 🎆 LEGENDARY CYBERSECURITY MASTERS 🎆
